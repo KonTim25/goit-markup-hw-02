@@ -1,9 +1,8 @@
 body {
-  font-family: "Roboto", "sans-serif";
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   background-color: #ffffff;
 }
 
@@ -16,17 +15,17 @@ a {
 }
 
 .logo {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.logo > .logo-web,
-.footer .logo > .logo-web {
-  color: #4d5ae5;
+.logo > .logo-web {
+  color: #2e2f42;
 }
 
 .nav-menu li a {
@@ -43,6 +42,7 @@ a {
 }
 
 .nav-address li a {
+  font-style: normal;
   color: #434455;
 }
 
@@ -55,19 +55,19 @@ a {
   background: #2e2f42;
 }
 
-.section-top h1 {
+.section-top .text-h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
-  color: #fff;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-.section-top button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+.section-top .button-top {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
@@ -81,13 +81,13 @@ a {
   display: none;
 }
 
-.section-why ul li h3 {
+.section-why .text-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.section-why ul li p {
+.section-why .text {
   color: #434455;
 }
 
@@ -95,47 +95,61 @@ a {
   background: #f4f4fd;
 }
 
-.section-team h2 {
+.section-team .text-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
 }
 
-.section-team ul li h3 {
+.section-team .text-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-align: center;
 }
 
-.section-team ul li p {
+.section-team .text {
   text-align: center;
   color: #434455;
 }
 
-.section-portfolio h2 {
+.section-portfolio .text-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
   text-align: center;
 }
 
-.section-portfolio ul li h3 {
+.section-portfolio .text-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.section-portfolio ul li p {
+.section-portfolio .text {
   color: #434455;
 }
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
-.footer p {
+.footer .logo > .logo-web {
+  color: #f4f4fd;
+}
+
+.footer .text {
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
