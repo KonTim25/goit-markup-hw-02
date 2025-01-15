@@ -1,8 +1,145 @@
 body {
   font-family: "Roboto", "sans-serif";
-  font-weight: 400;
+  color: #2e2f42;
+  /* font-weight: 400; */
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", "sans-serif";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo > .logo-web,
+.footer .logo > .logo-web {
+  color: #4d5ae5;
+}
+
+.nav-menu li a {
+  font-weight: 500;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a:focus {
+  color: #404bbf;
+}
+
+.nav-menu li a:active {
+  text-decoration: underline;
+}
+
+.nav-address li a {
+  color: #434455;
+}
+
+.nav-address li a:hover,
+.nav-address li a:focus {
+  color: #404bbf;
+}
+
+.section-top {
+  background: #2e2f42;
+}
+
+.section-top h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #fff;
+}
+
+.section-top button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.section-top button:hover,
+.section-top button:focus {
+  background: #404bbf;
+}
+
+.section-why h2 {
+  display: none;
+}
+
+.section-why ul li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.section-why ul li p {
+  color: #434455;
+}
+
+.section-team {
+  background: #f4f4fd;
+}
+
+.section-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+}
+
+.section-team ul li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-team ul li p {
+  text-align: center;
+  color: #434455;
+}
+
+.section-portfolio h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+}
+
+.section-portfolio ul li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.section-portfolio ul li p {
+  color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer p {
+  color: #f4f4fd;
+}
+
+.footer .logo {
+  color: #f4f4fd;
 }
