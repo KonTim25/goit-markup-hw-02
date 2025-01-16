@@ -25,30 +25,36 @@ a {
   color: #4d5ae5;
 }
 
-.logo > .logo-web {
+.logo > .logo-studio {
   color: #2e2f42;
 }
 
-.nav-menu li a {
+.nav-menu .menu a {
   font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.nav-menu li a:hover,
-.nav-menu li a:focus {
+.nav-menu .menu a:hover,
+.nav-menu .menu a:focus {
   color: #404bbf;
 }
 
-.nav-menu li a:active {
+.nav-menu .menu a:active {
   text-decoration: underline;
 }
 
-.nav-address li a {
+address {
   font-style: normal;
+}
+
+.nav-address .addres-link a {
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-.nav-address li a:hover,
-.nav-address li a:focus {
+.nav-address .addres-link a:hover,
+.nav-address .addres-link a:focus {
   color: #404bbf;
 }
 
@@ -56,7 +62,7 @@ a {
   background: #2e2f42;
 }
 
-.section-top .text-h1 {
+.section-top .page-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -67,6 +73,7 @@ a {
 
 .section-top .button-top {
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -78,25 +85,24 @@ a {
   background: #404bbf;
 }
 
-.section-why h2 {
-  display: none;
-}
-
-.section-why .text-h3 {
+.section-why .element-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .section-why .text {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .section-team {
   background: #f4f4fd;
 }
 
-.section-team .text-h2 {
+.section-team .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -105,7 +111,7 @@ a {
   text-align: center;
 }
 
-.section-team .text-h3 {
+.section-team .element-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -119,7 +125,7 @@ a {
   color: #434455;
 }
 
-.section-portfolio .text-h2 {
+.section-portfolio .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -129,7 +135,7 @@ a {
   text-align: center;
 }
 
-.section-portfolio .text-h3 {
+.section-portfolio .element-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -145,7 +151,7 @@ a {
   background-color: #2e2f42;
 }
 
-.footer .logo > .logo-web {
+.footer .logo > .logo-studio {
   color: #f4f4fd;
 }
 
