@@ -48,13 +48,13 @@ a {
   font-style: normal;
 }
 
-.address-link a {
+.address .address-link {
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-link a:hover,
-.address-link a:focus {
+.address .address-link:hover,
+.address .address-link:focus {
   color: #404bbf;
 }
 
@@ -126,6 +126,7 @@ a {
 
 .section-team .text {
   text-align: center;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
