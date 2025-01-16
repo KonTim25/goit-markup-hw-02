@@ -44,17 +44,17 @@ a {
   text-decoration: underline;
 }
 
-address {
+.nav-address {
   font-style: normal;
 }
 
-.nav-address .addres-link a {
+.address-link a {
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.nav-address .addres-link a:hover,
-.nav-address .addres-link a:focus {
+.address-link a:hover,
+.address-link a:focus {
   color: #404bbf;
 }
 
